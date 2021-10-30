@@ -6,3 +6,8 @@ def stackSum(num):
     return stackNum
 
 print(stackSum(5))
+
+def stackSumG(num):
+    # 가우스의 방법
+    return num*(num +1)//2
+print(stackSumG(5))
